@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand -->
+    <color name="purple_primary">#6C5CE7</color>
+    <color name="purple_pressed">#5A4BD1</color>
+    <color name="purple_deep">#5B4BE0</color>
+
+    <!-- Backgrounds -->
+    <color name="lavender_bg">#F2F0FA</color>
+    <color name="surface_soft">#F8F6FD</color>
+    <color name="field_bg">#FBFAFE</color>
+
+    <!-- Strokes & dividers -->
+    <color name="field_stroke">#E7E3F6</color>
+    <color name="divider">#D9D5E8</color>
+
+    <!-- Text -->
+    <color name="text_primary">#14142B</color>
+    <color name="text_secondary">#7C7C99</color>
+    <color name="text_hint">#A6A6BF</color>
+    <color name="link_blue">#3A5AFF</color>
+
+    <!-- Home -->
+    <color name="home_bg">#F7F7FB</color>
+    <color name="search_bg">#EFEDF8</color>
+    <color name="accent_blue">#3DB2E3</color>
+    <color name="accent_orange">#F2994A</color>
+    <color name="card_soft">#FDFBFB</color>
+    <color name="star_yellow">#F5B301</color>
+
+    <!-- أغلفة الكتب التجريبية — تُستبدل بصور الأغلفة من الـ API لاحقاً -->
+    <color name="cover_navy">#2C3F94</color>
+    <color name="cover_green">#2E5E50</color>
+    <color name="cover_purple">#4A3B8C</color>
+    <color name="cover_teal">#1F6A80</color>
+    <color name="cover_orange">#C8631E</color>
+    <color name="cover_red">#B23A34</color>
+</resources>

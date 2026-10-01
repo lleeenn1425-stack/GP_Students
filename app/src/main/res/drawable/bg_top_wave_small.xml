@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- نسخة أقصر من موجة الترويسة لشاشات فيها حقول أكثر (مثل Sign Up) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="130dp"
+    android:viewportWidth="400"
+    android:viewportHeight="130">
+
+    <path
+        android:fillColor="#F2F0FA"
+        android:pathData="M0,0 H400 V130 H0 Z" />
+
+    <path
+        android:fillColor="#EAE5FB"
+        android:pathData="M0,0 H400 V78 C332,110 272,84 200,96 C128,108 66,116 0,100 Z" />
+
+    <path
+        android:fillColor="#DAD2F6"
+        android:pathData="M0,0 H400 V56 C338,86 282,62 208,74 C134,86 70,94 0,74 Z" />
+</vector>

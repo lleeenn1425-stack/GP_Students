@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--
+      مقصود: نفس المظهر الفاتح في الوضع الليلي، لأن التصميم الحالي لا يملك لوحة داكنة.
+      هذا يمنع كسر الشاشة لو فعّل المستخدم الوضع الليلي في نظامه.
+    -->
+    <style name="Base.Theme.StudentServices" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSurface">@color/lavender_bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+</resources>

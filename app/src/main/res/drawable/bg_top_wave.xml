@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  موجة الترويسة.
+  القاعدة بنفس لون lavender_bg تماماً حتى تذوب الترويسة في خلفية الصفحة
+  ولا يظهر خط فاصل عند نهايتها.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="210dp"
+    android:viewportWidth="400"
+    android:viewportHeight="210">
+
+    <path
+        android:fillColor="#F2F0FA"
+        android:pathData="M0,0 H400 V210 H0 Z" />
+
+    <path
+        android:fillColor="#EAE5FB"
+        android:pathData="M0,0 H400 V140 C332,190 272,144 200,166 C128,188 66,200 0,170 Z" />
+
+    <path
+        android:fillColor="#DAD2F6"
+        android:pathData="M0,0 H400 V104 C338,154 282,108 208,130 C134,152 70,168 0,132 Z" />
+</vector>

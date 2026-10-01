@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  زخرفة أسفل الشاشة: سميكة عند اليسار وتنحسر تدريجياً نحو اليمين.
+  تمتد بعرض الشاشة كاملاً حتى لا تظهر حافة عمودية حادة عند نهايتها.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="180dp"
+    android:viewportWidth="400"
+    android:viewportHeight="180">
+
+    <path
+        android:fillColor="#EDE9FB"
+        android:pathData="M0,44 C96,14 210,96 400,150 V180 H0 Z" />
+
+    <path
+        android:fillColor="#DFD8F7"
+        android:pathData="M0,98 C88,70 208,132 400,172 V180 H0 Z" />
+</vector>

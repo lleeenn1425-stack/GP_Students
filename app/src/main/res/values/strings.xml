@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Student Services</string>
+
+    <!-- Login screen -->
+    <string name="welcome">Welcome</string>
+    <string name="welcome_subtitle">Login to continue your academic journey</string>
+    <string name="label_email">Email</string>
+    <string name="hint_email">Enter your Email</string>
+    <string name="label_password">Password</string>
+    <string name="hint_password">Enter your password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login">Login</string>
+    <string name="or">Or</string>
+    <string name="no_account">Don\'t have account</string>
+    <string name="sign_up">Sign Up</string>
+
+    <!-- Sign up screen -->
+    <string name="create_account">Create Account</string>
+    <string name="create_account_subtitle">Sign up to start your academic journey</string>
+    <string name="label_full_name">Full Name</string>
+    <string name="hint_full_name">Enter your full name</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="cd_back">Back</string>
+
+    <!-- Forgot password screen -->
+    <string name="forgot_title">Forgot Password?</string>
+    <string name="forgot_subtitle">Enter the email linked to your account and we\'ll send you a link to reset your password</string>
+    <string name="send_reset_link">Send Reset Link</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="check_email_title">Check your email</string>
+    <string name="check_email_subtitle">We sent a password reset link to</string>
+    <string name="didnt_receive">Didn\'t receive the email?</string>
+    <string name="resend">Resend</string>
+    <!-- إيميل تجريبي يظهر في وضع التصميم عندما يترك المستخدم الحقل فارغاً -->
+    <string name="sample_email">student@university.edu</string>
+
+    <!-- Home screen -->
+    <string name="hello">Hello</string>
+    <string name="home_subtitle">Find and access your academic resources</string>
+    <string name="hint_search">Search books, resources…</string>
+    <string name="books">Books</string>
+    <string name="books_desc">Browse all available books</string>
+    <string name="resources">Resources</string>
+    <string name="resources_desc">Access study materials</string>
+    <string name="advertising">Advertising</string>
+    <string name="advertising_desc">A new book has been added</string>
+    <string name="latest_books">Latest Books</string>
+    <string name="see_all">See all</string>
+    <string name="view">View</string>
+    <string name="no_results">No books match your search</string>
+    <string name="cd_notifications">Notifications</string>
+
+    <!-- Books screen -->
+    <string name="hint_search_books">Search for books, authors…</string>
+    <string name="all_books">All Books</string>
+    <string name="add_book">Add book</string>
+    <string name="cd_filter">Filter</string>
+
+    <!-- Book details screen -->
+    <string name="book_details">Book Details</string>
+    <string name="save_book">Save Book</string>
+    <string name="saved_book">Saved</string>
+    <string name="description">Description</string>
+    <string name="book_information">Book Information</string>
+    <string name="info_category">Category</string>
+    <string name="info_published">Published</string>
+    <string name="info_language">Language</string>
+    <string name="info_condition">Condition</string>
+    <string name="info_price">Price</string>
+    <string name="contact_owner">Contact Owner</string>
+    <string name="rating_format">%1$s (%2$s)</string>
+    <string name="price_format">SAR %1$s</string>
+
+    <!-- Validation -->
+    <string name="error_email_required">Email is required</string>
+    <string name="error_email_invalid">Enter a valid email address</string>
+    <string name="error_password_required">Password is required</string>
+    <string name="error_password_short">Password must be at least 6 characters</string>
+    <string name="error_name_required">Full name is required</string>
+
+    <!-- Temporary placeholders until the backend is wired -->
+    <string name="msg_signup_ok">Validation passed — ready to call the API</string>
+    <string name="msg_resent">Link sent again — placeholder until the backend is wired</string>
+    <string name="error_email_taken">This email is already registered</string>
+    <string name="logout">Logout</string>
+    <string name="msg_login_failed">Wrong email or password</string>
+    <string name="msg_load_failed">Could not load books. Check your connection.</string>
+    <string name="msg_coming_soon">Coming soon</string>
+
+    <!-- Accessibility -->
+    <string name="cd_logo">Student Services logo</string>
+</resources>

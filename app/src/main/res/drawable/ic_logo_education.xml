@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- قبعة تخرّج فوق كتاب مفتوح -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- صفحات الكتاب (تعبئة بيضاء حتى لا يظهر ما خلفها) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,38 C24,33 14,32 6,34 L6,52 C14,50 24,51 32,56 C40,51 50,50 58,52 L58,34 C50,32 40,33 32,38 Z" />
+
+    <!-- حدّ الكتاب -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M32,38 C24,33 14,32 6,34 L6,52 C14,50 24,51 32,56 C40,51 50,50 58,52 L58,34 C50,32 40,33 32,38 Z"
+        android:strokeColor="#5B4BE0"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="3.4" />
+
+    <!-- كعب الكتاب -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M32,38 L32,56"
+        android:strokeColor="#5B4BE0"
+        android:strokeLineCap="round"
+        android:strokeWidth="3.4" />
+
+    <!-- لوح القبعة -->
+    <path
+        android:fillColor="#5B4BE0"
+        android:pathData="M32,9 L59,19 L32,29 L5,19 Z" />
+
+    <!-- بدن القبعة تحت اللوح -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M18,23 L18,29 C18,29 24,33 32,33 C40,33 46,29 46,29 L46,23"
+        android:strokeColor="#5B4BE0"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="3" />
+</vector>

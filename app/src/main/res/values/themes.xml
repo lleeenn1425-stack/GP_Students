@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--
+      التصميم الحالي فاتح فقط، فالـ parent هنا Light وليس DayNight.
+      لإضافة وضع ليلي حقيقي لاحقاً: أعِد parent إلى DayNight وعرّف الألوان في values-night.
+    -->
+    <style name="Base.Theme.StudentServices" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSurface">@color/lavender_bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <style name="Theme.StudentServices" parent="Base.Theme.StudentServices" />
+</resources>
